@@ -22,6 +22,8 @@ The scroll position on that post-page is not at the top of the page.
 
 I have found that commenting out the bootstrap scss in ![app/assets/stylesheets/application.scss](https://github.com/LukeClancy/turbo_bootstrap_issue/blob/main/app/assets/stylesheets/application.scss) will solve the issue, while also disabling all bootstrap functionality (except perhaps some bootstrap javascript). It is notable that disabling bootstrap javascript does not have the same effect. For these reasons I believe it is a css issue.
 
+Note inbetween disabling and renabling bootstrap, you will have to run "rails assets:precompile" and restart the server
+
 ## Versions
 
 1. testing on updated firefox version ('firefox -v' outputted 102.0)
