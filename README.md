@@ -1,5 +1,5 @@
 # turbo_bootstrap_issue
-Having an issue with turbo and bootstrap 5 compatibility. Note bootstrap 5 does NOT use jquery, unlike its predecesors.
+Having an issue with turbo and bootstrap 5 compatibility. Note bootstrap 5 does NOT use jquery, unlike its predecessors.
 
 ## Description of issue
 
@@ -20,7 +20,7 @@ The scroll position on that post-page is not at the top of the page.
 
 ## Tracking the issue
 
-I have found that commenting out the bootstrap scss in ![app/assets/stylesheets/application.scss](https://github.com/LukeClancy/turbo_bootstrap_issue/blob/main/app/assets/stylesheets/application.scss) will solve the issue, while also disabling all bootstrap functionality (except perhaps some bootstrap javascript). It is notable that disabling bootstrap javascript does not have the same effect. For these reasons I beleive it is a css issue.
+I have found that commenting out the bootstrap scss in ![app/assets/stylesheets/application.scss](https://github.com/LukeClancy/turbo_bootstrap_issue/blob/main/app/assets/stylesheets/application.scss) will solve the issue, while also disabling all bootstrap functionality (except perhaps some bootstrap javascript). It is notable that disabling bootstrap javascript does not have the same effect. For these reasons I believe it is a css issue.
 
 ## Versions
 
@@ -28,4 +28,4 @@ I have found that commenting out the bootstrap scss in ![app/assets/stylesheets/
 2. yarn: bootstrap 5.1.3
 3. gemfile: bootstrap 5.1.3
 4. turbo-rails 1.1.1
-5. rails 7 (is an issue on rails 6 aswell)
+5. rails 7 (is an issue on rails 6 as well)
