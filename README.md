@@ -18,7 +18,7 @@ After refreshing, going to a new page has the scroll position set to the top of 
 
 ## Actual Behavior
 
-After refreshing, going to a new page has the scroll position unchanged.
+After refreshing, going to a new page leaves the scroll position unchanged.
 
 ![actual behavior](https://github.com/LukeClancy/turbo_bootstrap_issue/blob/main/docs/g_2.gif)
 
