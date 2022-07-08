@@ -12,9 +12,13 @@ The scroll position on that post-page is not at the top of the page.
 
 ## Expected Behavior
 
+After refreshing, going to a new page has the scroll position set to the top of the new page.
+
 ![expected behavior](https://github.com/LukeClancy/turbo_bootstrap_issue/blob/main/docs/g_1.gif)
 
 ## Actual Behavior
+
+After refreshing, going to a new page has the scroll position unchanged.
 
 ![actual behavior](https://github.com/LukeClancy/turbo_bootstrap_issue/blob/main/docs/g_2.gif)
 
