@@ -1,6 +1,9 @@
 # turbo_bootstrap_issue
 Having an issue with turbo and bootstrap 5 compatibility. Note bootstrap 5 does NOT use jquery, unlike its predecessors.
 
+## Update and Solution!
+It seems that bootstrap is setting an incompatible scroll-behavior in the css. See more [from my question to the hotwire community](https://discuss.hotwired.dev/t/bootstrap-turbo-scroll-issue/4302/2)
+
 ## Description of issue
 
 If I scroll down quite a bit, and then I enter another page through a link, I start at the same scroll position on that page. In my example I have an index of posts, and if I:
